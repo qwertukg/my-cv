@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'JetBrainsMonoThin';
+    src: url("http://0.0.0.0:8080/static/JetBrainsMono-Thin.ttf");
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoItalic';
+    src: url("http://0.0.0.0:8080/static/JetBrainsMono-ThinItalic.ttf");
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoLight';
+    src: url("http://0.0.0.0:8080/static/JetBrainsMono-Light.ttf");
+}
+
+b {
+    font-family: JetBrainsMonoLight, Verdana, serif;
+}
+
+body {
+    margin: 50px 50px;
+    font-family: JetBrainsMonoThin, Verdana, serif;
+    font-size: 12px;
+}
+
+div {
+    padding: 0 0 5px 30px;
+}
+
+.array>.value>.text {
+    font-family: JetBrainsMonoThin, Verdana, serif;
+    text-decoration: underline;
+    color: #700;
+}
+.number {
+    font-family: JetBrainsMonoThin, Verdana, serif;
+    color: #007;
+}
+
+.array>.value:not(:last-child)::after {
+    content: ',';
+}
+
+.array>.value {
+    display: inline;
+    padding: 0;
+}

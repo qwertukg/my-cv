@@ -1,0 +1,342 @@
+{
+  "common_information": {
+    "name": "Daniil Rakhmatulin",
+    "age": 37,
+
+    "location": "Almaty, Kazakhstan",
+    "willing_to_relocate": [
+      "Saint Petersburg",
+      "New Zealand",
+      "Canada"
+    ],
+
+    "contacts": {
+      "telegram": "https://t.me/over_right",
+      "email": "daniil.rakhmatulin@gmail.com",
+      "github": "https://github.com/qwertukg"
+    },
+    "about_me": "Specialist with 20 years of experience in Secure Software Development Life Cycle (SSDLC), deep experience in development processes in Telecom and Financial sector. Practicing Java/Kotlin engineer (formerly also C# and PHP), with experience in implementing, maintaining, and developing DevOps and QA automation practices in development process, as well as QA and DevOps engineering. Experienced in AppSec/DevSecOps practices and tooling integration in development process and corporate Security. Skilled in Contract Testing methodology and tooling in software development processes, and integration with Corporate QA. Experienced in Canary Testing tools in development process, and forming release strategies with auto-rollback. Practiced in decomposing monoliths, building Enterprise Service Bus (ESB), implementing Middleware layer, and separating Enterprise Service-enablers. Also experienced in collecting and centralizing development metrics from various engineering tools, standardizing and centralizing development requirements, integrating development tools with Enterprise Project Management Systems, and forming Grading and Assessment strategies for engineers"
+  },
+
+  "desired_position": {
+    "title": "Kotlin Backend Engineer",
+    "specializations": [
+      "Development Team Leader",
+      "Programmer, Developer"
+    ]
+  },
+
+  "work_experience": [
+    {
+      "organization": "JSC National Payment Corporation of Kazakhstan",
+      "position": "Head of Development Department",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 7.2023,
+        "to": "now"
+      },
+      "job_duties": "Modernization of development processes, SDLC development, software development in Kotlin using Ktor framework, building CI/CD processes, software maintenance, searching and onboarding engineers, documentation work",
+      "skills": [
+        "Kotlin",
+        "Ktor",
+        "Spring Framework",
+        "Gitlab CI",
+        "Kubernetes",
+        "Docker",
+        "Microservice architecture"
+      ]
+    },
+    {
+      "organization": "Beeline, TM",
+      "position": "Software Development Director",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 12.2019,
+        "to": 6.2022
+      },
+      "job_duties": "Managing development processes, modernizing technology stack, improving code quality and software development culture",
+      "skills": [
+        "Kotlin",
+        "Java",
+        "Spring Framework",
+        "Microservice architecture",
+        "Kubernetes",
+        "Docker",
+        "Sonarqube",
+        "Gitlab CI"
+      ]
+    },
+    {
+      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
+      "position": "Deputy Director of the Digital Bank Department",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 8.2019,
+        "to": 12.2019
+      },
+      "job_duties": "Management of the department within the technical part. Managing the development department, developing architecture, software optimization in enterprise environment",
+      "skills": [
+        "Kotlin",
+        "Java",
+        "Spring Framework",
+        "Hibernate",
+        "Multithreading Development",
+        "Microservice architecture",
+        "Kubernetes",
+        "Openshift",
+        "Docker",
+        "Sonarqube",
+        "Gitlab CI",
+        "A/B deployment strategy"
+      ]
+    },
+    {
+      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
+      "position": "Head of Digital Information Technology Department",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 4.2018,
+        "to": 8.2019
+      },
+      "job_duties": "Management of the development department, architecture development, software optimization in an enterprise environment",
+      "skills": [
+        "Kotlin",
+        "Java",
+        "Spring Framework",
+        "Hibernate",
+        "Multithreading Development",
+        "Microservice architecture",
+        "Kubernetes",
+        "Openshift",
+        "Docker",
+        "Sonarqube",
+        "Gitlab CI",
+        "A/B deployment strategy"
+      ]
+    },
+    {
+      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
+      "position": "Senior Manager, Digital Information Technology Management",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 6.2017,
+        "to": 4.2018
+      },
+      "job_duties": "Architecture and software development, software optimization in an enterprise environment",
+      "skills": [
+        "Kotlin",
+        "Java",
+        "Spring Framework",
+        "Hibernate",
+        "Multithreading Development",
+        "Microservice architecture",
+        "Docker"
+      ]
+    },
+    {
+      "organization": "LTD Framgia, Inc.",
+      "position": "Software Engineer",
+      "location": "Hanoi, Vietnam",
+      "period": {
+        "from": 5.2016,
+        "to": 5.2017
+      },
+      "job_duties": "Development of information systems for business",
+      "skills": [
+        "Kotlin",
+        "C#",
+        "ASP.NET",
+        "Java",
+        "Laravel",
+        "PHP",
+        "MySql",
+        "Sphinx",
+        "Git",
+        "Redis"
+      ]
+    },
+    {
+      "organization": "RSE Republican Center for Electronic Health",
+      "position": "Chief Specialist of the Information Systems Modification Department",
+      "location": "Astana, Kazakhstan",
+      "period": {
+        "from": 4.2015,
+        "to": 4.2016
+      },
+      "job_duties": "Development and maintenance of national electronic health systems",
+      "skills": [
+        "ASP.NET",
+        "C#",
+        "Entity Framework",
+        "MVC",
+        "PostgreSQL",
+        "MSSQL",
+        "Rest API",
+        "Web Services"
+      ]
+    },
+    {
+      "organization": "iBEC Systems LLP",
+      "position": "Backend Developer",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 10.2013,
+        "to": 4.2015
+      },
+      "job_duties": "Development of the server-side of large web applications, stores, portals, national scale projects",
+      "skills": [
+        "Laravel",
+        "Yii",
+        "Git",
+        "PHP",
+        "JavaScript",
+        "JQuery",
+        "Ajax",
+        "MySql",
+        "Redis"
+      ]
+    },
+    {
+      "organization": "Azarov LLP",
+      "position": "Backend Developer",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 2.2013,
+        "to": 10.2013
+      },
+      "job_duties": "Team development of a massive web aggregator using Laravel framework",
+      "skills": [
+        "Laravel",
+        "Git",
+        "Bootstrap",
+        "PHP",
+        "JavaScript",
+        "JQuery",
+        "Ajax",
+        "MySql",
+        "Redis"
+      ]
+    },
+    {
+      "organization": "Freelance",
+      "position": "Backend Developer",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 12.2012,
+        "to": 2.2013
+      },
+      "job_duties": "Team development, implementation, and support of web applications using Yii framework",
+      "skills": [
+        "Yii",
+        "SVN",
+        "Bootstrap",
+        "PHP",
+        "JavaScript",
+        "JQuery",
+        "Ajax",
+        "MySql"
+      ]
+    },
+    {
+      "organization": "Sary-Arka NPF LLP",
+      "position": "Backend Developer",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 1.2012,
+        "to": 12.2012
+      },
+      "job_duties": "Development, implementation, and support of web applications, projects, modules",
+      "skills": [
+        "PHP",
+        "JavaScript",
+        "JQuery",
+        "Ajax",
+        "MySql"
+      ]
+    },
+    {
+      "organization": "Zaman Pharm Almaty Distribution LLP",
+      "position": "Web Programmer",
+      "location": "Almaty, Kazakhstan",
+      "period": {
+        "from": 6.2010,
+        "to": 1.2012
+      },
+      "job_duties": "Maintenance and support of 1C, development, implementation, and support of web applications",
+      "skills": [
+        "1C v.8",
+        "PHP",
+        "JavaScript",
+        "JQuery",
+        "Ajax",
+        "MySql",
+        "MSSql"
+      ]
+    },
+    {
+      "organization": "RSE East Kazakhstan Regional Library named after A.S. Pushkin",
+      "position": "Advisor on Information and Communication Technologies",
+      "location": "Almaty, Ust-Kamenogorsk",
+      "period": {
+        "from": 3.2009,
+        "to": 5.2010
+      },
+      "job_duties": "Engaged in the development and maintenance of websites, server setup and maintenance",
+      "skills": [
+        "PHP",
+        "JavaScript",
+        "SQL",
+        "IIS"
+      ]
+    },
+    {
+      "organization": "Basis-IT Software and Technical Complex LLP",
+      "position": "Head of Technical Department",
+      "location": "Almaty, Ust-Kamenogorsk",
+      "period": {
+        "from": 7.2008,
+        "to": 2.2009
+      },
+      "job_duties": "Engaged in software development and website development",
+      "skills": [
+        "PHP",
+        "JavaScript",
+        "SQL",
+        "Borland Delphi",
+        "VBA",
+        "1C v.7.7",
+        "1C v.8"
+      ]
+    }
+  ],
+
+  "higher_education": [
+    {
+      "institution": "Kazakh-American Free University, Ust-Kamenogorsk",
+      "department": "Information Systems in Business",
+      "year_of_graduation": 2008
+    },
+    {
+      "institution": "East Kazakhstan State Technical University named after D. Serikbayev, Ust-Kamenogorsk",
+      "department": "Software and Hardware Support of Computers and Networks",
+      "year_of_graduation": 2004
+    }
+  ],
+
+  "languages" : [
+    {
+      "name" : "Russian",
+      "level" : "Native"
+    },
+    {
+      "name" : "English",
+      "level" : "C1-Advanced"
+    }
+  ],
+
+  "options": {
+    "en": "http://0.0.0.0:8080/en",
+    "ru": "http://0.0.0.0:8080/ru",
+    "powered_by_ktor": ""
+  }
+}
