@@ -9,13 +9,14 @@ import io.ktor.server.routing.*
 import kotlinx.html.*
 
 fun Application.configureRoutingHtml() {
-    val service = Service(environment)
+    val service = JsonService(environment)
+    val mapper = jacksonObjectMapper()
 
     routing {
         get("/{lang}") {
             val lang = call.parameters["lang"] ?: service.defaultLang
-            val cvData = service.getDataByLang(lang)
-            val node = jacksonObjectMapper().readTree(cvData)
+            val jsonString = service.getDataByLang(lang)
+            val node = mapper.readTree(jsonString)
 
             call.respondHtml {
                 head {

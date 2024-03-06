@@ -3,8 +3,8 @@ package kz.qwertukg.plugins
 import io.ktor.server.application.*
 import java.io.File
 
-class Service(private val env: ApplicationEnvironment) {
-    val defaultLang = "ru"
+class JsonService(private val env: ApplicationEnvironment) {
+    val defaultLang = "en"
 
     fun getDataByLang(lang: String): String {
         val path = env.config.propertyOrNull("app.pathToData")?.getString()

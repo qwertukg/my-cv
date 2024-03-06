@@ -337,6 +337,9 @@
   "options": {
     "en": "http://0.0.0.0:8080/en",
     "ru": "http://0.0.0.0:8080/ru",
-    "powered_by_ktor": ""
+    "powered_by" : {
+      "ktor": "https://ktor.io",
+      "source": "https://github.com/qwertukg/my-cv"
+    }
   }
 }
