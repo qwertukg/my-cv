@@ -27,21 +27,22 @@ div {
     padding: 0 0 5px 30px;
 }
 
-.array>.value>.text {
+.array > .value > .text {
     font-family: JetBrainsMonoThin, Verdana, serif;
     text-decoration: underline;
     color: #700;
 }
+
 .number {
     font-family: JetBrainsMonoThin, Verdana, serif;
     color: #007;
 }
 
-.array>.value:not(:last-child)::after {
+.array > .value:not(:last-child)::after {
     content: ',';
 }
 
-.array>.value {
+.array > .value {
     display: inline;
     padding: 0;
 }

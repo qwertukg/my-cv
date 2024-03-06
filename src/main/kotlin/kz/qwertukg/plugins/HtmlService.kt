@@ -59,9 +59,11 @@ fun DIV.printStringValue(value: String) {
         value.startsWith("http") -> span("link") {
             a(href = value) { +value }
         }
+
         "@" in value -> span("mail") {
             a(href = "mailto:$value") { +value }
         }
+
         else -> span("text") { +value }
     }
 }

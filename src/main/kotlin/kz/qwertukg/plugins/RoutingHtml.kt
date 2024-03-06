@@ -6,7 +6,10 @@ import io.ktor.server.html.*
 import io.ktor.server.http.content.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
-import kotlinx.html.*
+import kotlinx.html.body
+import kotlinx.html.div
+import kotlinx.html.head
+import kotlinx.html.link
 
 fun Application.configureRoutingHtml() {
     val service = JsonService(environment)
@@ -28,7 +31,6 @@ fun Application.configureRoutingHtml() {
                     }
                 }
             }
-
         }
 
         get("/") {
@@ -40,6 +42,5 @@ fun Application.configureRoutingHtml() {
         get("/favicon.ico") {
             call.respondRedirect("/static/favicon.ico")
         }
-
     }
 }

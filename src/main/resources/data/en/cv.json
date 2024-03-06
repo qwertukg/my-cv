@@ -2,14 +2,12 @@
   "common_information": {
     "name": "Daniil Rakhmatulin",
     "age": 37,
-
     "location": "Almaty, Kazakhstan",
     "willing_to_relocate": [
       "Saint Petersburg",
       "New Zealand",
       "Canada"
     ],
-
     "contacts": {
       "telegram": "https://t.me/over_right",
       "email": "daniil.rakhmatulin@gmail.com",
@@ -17,7 +15,6 @@
     },
     "about_me": "Specialist with 20 years of experience in Secure Software Development Life Cycle (SSDLC), deep experience in development processes in Telecom and Financial sector. Practicing Java/Kotlin engineer (formerly also C# and PHP), with experience in implementing, maintaining, and developing DevOps and QA automation practices in development process, as well as QA and DevOps engineering. Experienced in AppSec/DevSecOps practices and tooling integration in development process and corporate Security. Skilled in Contract Testing methodology and tooling in software development processes, and integration with Corporate QA. Experienced in Canary Testing tools in development process, and forming release strategies with auto-rollback. Practiced in decomposing monoliths, building Enterprise Service Bus (ESB), implementing Middleware layer, and separating Enterprise Service-enablers. Also experienced in collecting and centralizing development metrics from various engineering tools, standardizing and centralizing development requirements, integrating development tools with Enterprise Project Management Systems, and forming Grading and Assessment strategies for engineers"
   },
-
   "desired_position": {
     "title": "Kotlin Backend Engineer",
     "specializations": [
@@ -25,7 +22,6 @@
       "Programmer, Developer"
     ]
   },
-
   "work_experience": [
     {
       "organization": "JSC National Payment Corporation of Kazakhstan",
@@ -309,7 +305,6 @@
       ]
     }
   ],
-
   "higher_education": [
     {
       "institution": "Kazakh-American Free University, Ust-Kamenogorsk",
@@ -322,22 +317,20 @@
       "year_of_graduation": 2004
     }
   ],
-
-  "languages" : [
+  "languages": [
     {
-      "name" : "Russian",
-      "level" : "Native"
+      "name": "Russian",
+      "level": "Native"
     },
     {
-      "name" : "English",
-      "level" : "C1-Advanced"
+      "name": "English",
+      "level": "C1-Advanced"
     }
   ],
-
   "options": {
     "en": "http://0.0.0.0:8080/en",
     "ru": "http://0.0.0.0:8080/ru",
-    "powered_by" : {
+    "powered_by": {
       "ktor": "https://ktor.io",
       "source": "https://github.com/qwertukg/my-cv"
     }
