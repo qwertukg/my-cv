@@ -5,4 +5,4 @@ ktor:
   deployment:
     port: 8080
 app:
-  pathToData: "/Users/daniil/Documents/Projects/my cv/src/main/resources/data"
+  dataPath: "$DATA_PATH:/Users/daniil/Documents/Projects/my cv/src/main/resources/data"

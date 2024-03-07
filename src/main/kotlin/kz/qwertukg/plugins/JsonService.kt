@@ -7,7 +7,7 @@ class JsonService(private val env: ApplicationEnvironment) {
     val defaultLang = "en"
 
     fun getDataByLang(lang: String): String {
-        val path = env.config.propertyOrNull("app.pathToData")?.getString()
+        val path = env.config.propertyOrNull("app.dataPath")?.getString()
             ?: throw NullPointerException("Data source not found")
 
         return File("$path/$lang/cv.json").readText()
