@@ -1,10 +1,13 @@
 {
+  "_": {
+    "en": "http://0.0.0.0:8080/en",
+    "ru": "http://0.0.0.0:8080/ru"
+  },
   "common_information": {
     "name": "Daniil Rakhmatulin",
     "age": 37,
     "location": "Almaty, Kazakhstan",
     "willing_to_relocate": [
-      "Saint Petersburg",
       "New Zealand",
       "Canada"
     ],
@@ -24,13 +27,13 @@
   },
   "work_experience": [
     {
-      "organization": "JSC National Payment Corporation of Kazakhstan",
-      "position": "Head of Development Department",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 7.2023,
         "to": "now"
       },
+      "organization": "JSC National Payment Corporation of Kazakhstan",
+      "position": "Head of Development Department",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Modernization of development processes, SDLC development, software development in Kotlin using Ktor framework, building CI/CD processes, software maintenance, searching and onboarding engineers, documentation work",
       "skills": [
         "Kotlin",
@@ -43,13 +46,13 @@
       ]
     },
     {
-      "organization": "Beeline, TM",
-      "position": "Software Development Director",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 12.2019,
         "to": 6.2022
       },
+      "organization": "Beeline, TM",
+      "position": "Software Development Director",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Managing development processes, modernizing technology stack, improving code quality and software development culture",
       "skills": [
         "Kotlin",
@@ -63,13 +66,13 @@
       ]
     },
     {
-      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
-      "position": "Deputy Director of the Digital Bank Department",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 8.2019,
         "to": 12.2019
       },
+      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
+      "position": "Deputy Director of the Digital Bank Department",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Management of the department within the technical part. Managing the development department, developing architecture, software optimization in enterprise environment",
       "skills": [
         "Kotlin",
@@ -87,13 +90,13 @@
       ]
     },
     {
-      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
-      "position": "Head of Digital Information Technology Department",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 4.2018,
         "to": 8.2019
       },
+      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
+      "position": "Head of Digital Information Technology Department",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Management of the development department, architecture development, software optimization in an enterprise environment",
       "skills": [
         "Kotlin",
@@ -111,13 +114,13 @@
       ]
     },
     {
-      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
-      "position": "Senior Manager, Digital Information Technology Management",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 6.2017,
         "to": 4.2018
       },
+      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
+      "position": "Senior Manager, Digital Information Technology Management",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Architecture and software development, software optimization in an enterprise environment",
       "skills": [
         "Kotlin",
@@ -130,13 +133,13 @@
       ]
     },
     {
-      "organization": "LTD Framgia, Inc.",
-      "position": "Software Engineer",
-      "location": "Hanoi, Vietnam",
       "period": {
         "from": 5.2016,
         "to": 5.2017
       },
+      "organization": "LTD Framgia, Inc.",
+      "position": "Software Engineer",
+      "location": "Hanoi, Vietnam",
       "job_duties": "Development of information systems for business",
       "skills": [
         "Kotlin",
@@ -152,13 +155,13 @@
       ]
     },
     {
-      "organization": "RSE Republican Center for Electronic Health",
-      "position": "Chief Specialist of the Information Systems Modification Department",
-      "location": "Astana, Kazakhstan",
       "period": {
         "from": 4.2015,
         "to": 4.2016
       },
+      "organization": "RSE Republican Center for Electronic Health",
+      "position": "Chief Specialist of the Information Systems Modification Department",
+      "location": "Astana, Kazakhstan",
       "job_duties": "Development and maintenance of national electronic health systems",
       "skills": [
         "ASP.NET",
@@ -172,13 +175,13 @@
       ]
     },
     {
-      "organization": "iBEC Systems LLP",
-      "position": "Backend Developer",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 10.2013,
         "to": 4.2015
       },
+      "organization": "iBEC Systems LLP",
+      "position": "Backend Developer",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Development of the server-side of large web applications, stores, portals, national scale projects",
       "skills": [
         "Laravel",
@@ -193,13 +196,13 @@
       ]
     },
     {
-      "organization": "Azarov LLP",
-      "position": "Backend Developer",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 2.2013,
         "to": 10.2013
       },
+      "organization": "Azarov LLP",
+      "position": "Backend Developer",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Team development of a massive web aggregator using Laravel framework",
       "skills": [
         "Laravel",
@@ -214,13 +217,13 @@
       ]
     },
     {
-      "organization": "Freelance",
-      "position": "Backend Developer",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 12.2012,
         "to": 2.2013
       },
+      "organization": "Freelance",
+      "position": "Backend Developer",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Team development, implementation, and support of web applications using Yii framework",
       "skills": [
         "Yii",
@@ -234,13 +237,13 @@
       ]
     },
     {
-      "organization": "Sary-Arka NPF LLP",
-      "position": "Backend Developer",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 1.2012,
         "to": 12.2012
       },
+      "organization": "Sary-Arka NPF LLP",
+      "position": "Backend Developer",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Development, implementation, and support of web applications, projects, modules",
       "skills": [
         "PHP",
@@ -251,13 +254,13 @@
       ]
     },
     {
-      "organization": "Zaman Pharm Almaty Distribution LLP",
-      "position": "Web Programmer",
-      "location": "Almaty, Kazakhstan",
       "period": {
         "from": 6.2010,
         "to": 1.2012
       },
+      "organization": "Zaman Pharm Almaty Distribution LLP",
+      "position": "Web Programmer",
+      "location": "Almaty, Kazakhstan",
       "job_duties": "Maintenance and support of 1C, development, implementation, and support of web applications",
       "skills": [
         "1C v.8",
@@ -270,13 +273,13 @@
       ]
     },
     {
-      "organization": "RSE East Kazakhstan Regional Library named after A.S. Pushkin",
-      "position": "Advisor on Information and Communication Technologies",
-      "location": "Almaty, Ust-Kamenogorsk",
       "period": {
         "from": 3.2009,
         "to": 5.2010
       },
+      "organization": "RSE East Kazakhstan Regional Library named after A.S. Pushkin",
+      "position": "Advisor on Information and Communication Technologies",
+      "location": "Almaty, Ust-Kamenogorsk",
       "job_duties": "Engaged in the development and maintenance of websites, server setup and maintenance",
       "skills": [
         "PHP",
@@ -286,13 +289,13 @@
       ]
     },
     {
-      "organization": "Basis-IT Software and Technical Complex LLP",
-      "position": "Head of Technical Department",
-      "location": "Almaty, Ust-Kamenogorsk",
       "period": {
         "from": 7.2008,
         "to": 2.2009
       },
+      "organization": "Basis-IT Software and Technical Complex LLP",
+      "position": "Head of Technical Department",
+      "location": "Almaty, Ust-Kamenogorsk",
       "job_duties": "Engaged in software development and website development",
       "skills": [
         "PHP",
@@ -326,13 +329,5 @@
       "name": "English",
       "level": "C1-Advanced"
     }
-  ],
-  "options": {
-    "en": "http://0.0.0.0:8080/en",
-    "ru": "http://0.0.0.0:8080/ru",
-    "powered_by": {
-      "ktor": "https://ktor.io",
-      "source": "https://github.com/qwertukg/my-cv"
-    }
-  }
+  ]
 }

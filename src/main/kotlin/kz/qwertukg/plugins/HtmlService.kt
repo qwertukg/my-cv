@@ -49,7 +49,7 @@ fun DIV.renderNormalNode(node: JsonNode, key: String) {
 
 fun DIV.printKey(key: String) {
     val ppKey = key.replace("_", " ").capitalize()
-    if (key.isNotBlank()) {
+    if (ppKey.isNotBlank()) {
         b { +"$ppKey: " }
     }
 }
