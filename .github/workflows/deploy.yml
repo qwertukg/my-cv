@@ -54,5 +54,6 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
           script: |
+            export DATA_PATH=${{ secrets.PORT_PATH }}
             env
-            java -jar ~/web/build/libs/app.jar &
+            java -jar ${{ secrets.JAR_PATH }} &
