@@ -39,7 +39,7 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
           source: "./src/main/resources/data/*"
-          target: "~/web/data"
+          target: "/${{ secrets.SSH_USERNAME }}/web/"
 
   deploy:
     needs: build
