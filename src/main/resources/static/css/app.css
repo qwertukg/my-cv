@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'JetBrainsMonoThin';
-    src: url("http://0.0.0.0:8080/static/JetBrainsMono-Thin.ttf");
+    src: url("/static/JetBrainsMono-Thin.ttf");
 }
 
 @font-face {
     font-family: 'JetBrainsMonoItalic';
-    src: url("http://0.0.0.0:8080/static/JetBrainsMono-ThinItalic.ttf");
+    src: url("/static/JetBrainsMono-ThinItalic.ttf");
 }
 
 @font-face {
     font-family: 'JetBrainsMonoLight';
-    src: url("http://0.0.0.0:8080/static/JetBrainsMono-Light.ttf");
+    src: url("/static/JetBrainsMono-Light.ttf");
 }
 
 b {
