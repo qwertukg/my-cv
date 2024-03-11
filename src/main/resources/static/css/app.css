@@ -4,12 +4,13 @@
 }
 
 @font-face {
-    font-family: 'JetBrainsMonoLight';
-    src: url("/static/JetBrainsMono-Light.ttf");
+    font-family: 'JetBrainsMonoRegular';
+    src: url("/static/JetBrainsMono-Regular.ttf");
 }
 
 b {
-    font-family: JetBrainsMonoLight, Verdana, serif;
+    font-family: JetBrainsMonoRegular, Verdana, serif;
+    font-weight: 100;
 }
 
 body {
