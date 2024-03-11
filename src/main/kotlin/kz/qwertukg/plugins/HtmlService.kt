@@ -64,6 +64,11 @@ fun DIV.printStringValue(value: String) {
             a(href = "mailto:$value") { +value }
         }
 
+        ".jpeg" in value -> span("image") {
+            img(src = value)
+        }
+
+
         else -> span("text") { +value }
     }
 }

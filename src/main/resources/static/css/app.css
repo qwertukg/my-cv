@@ -42,3 +42,9 @@ div {
     display: inline;
     padding: 0;
 }
+
+img {
+    width: 200px;
+    border: #aaa 1px solid;
+    padding: 3px;
+}
