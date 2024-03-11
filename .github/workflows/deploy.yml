@@ -1,4 +1,4 @@
-name: Build and Deploy Ktor Application
+name: Build and Deploy CV App
 
 on:
   push:
@@ -55,5 +55,4 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             export DATA_PATH=${{ secrets.DATA_PATH }}
-            env
             java -jar ${{ secrets.JAR_PATH }} &
