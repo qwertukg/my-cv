@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: 'JetBrainsMonoItalic';
-    src: url("/static/JetBrainsMono-ThinItalic.ttf");
-}
-
-@font-face {
     font-family: 'JetBrainsMonoLight';
     src: url("/static/JetBrainsMono-Light.ttf");
 }
@@ -18,9 +13,9 @@ b {
 }
 
 body {
-    margin: 50px 200px;
+    margin: 5% 10%;
     font-family: JetBrainsMonoThin, Verdana, serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 div {
