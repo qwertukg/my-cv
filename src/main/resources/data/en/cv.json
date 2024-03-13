@@ -69,13 +69,13 @@
     },
     {
       "period": {
-        "from": 8.2019,
+        "from": 6.2017,
         "to": 12.2019
       },
       "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
-      "position": "Deputy Director of the Digital Bank Department",
+      "position": "Senior Manager, Digital Information Technology Management -> Deputy Director of the Digital Bank Department",
       "location": "Almaty, Kazakhstan",
-      "job_duties": "Management of the department within the technical part. Managing the development department, developing architecture, software optimization in enterprise environment",
+      "job_duties": "Management of the department within the technical part. Managing the development department, developing architecture, software development in Java/Kotlin, and optimization in enterprise environment",
       "skills": [
         "Kotlin",
         "Java",
@@ -89,49 +89,6 @@
         "Sonarqube",
         "Gitlab CI",
         "A/B deployment strategy"
-      ]
-    },
-    {
-      "period": {
-        "from": 4.2018,
-        "to": 8.2019
-      },
-      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
-      "position": "Head of Digital Information Technology Department",
-      "location": "Almaty, Kazakhstan",
-      "job_duties": "Management of the development department, architecture development, software optimization in an enterprise environment",
-      "skills": [
-        "Kotlin",
-        "Java",
-        "Spring Framework",
-        "Hibernate",
-        "Multithreading Development",
-        "Microservice architecture",
-        "Kubernetes",
-        "Openshift",
-        "Docker",
-        "Sonarqube",
-        "Gitlab CI",
-        "A/B deployment strategy"
-      ]
-    },
-    {
-      "period": {
-        "from": 6.2017,
-        "to": 4.2018
-      },
-      "organization": "JSC Altyn Bank (Digital bank Altyn-i)",
-      "position": "Senior Manager, Digital Information Technology Management",
-      "location": "Almaty, Kazakhstan",
-      "job_duties": "Architecture and software development, software optimization in an enterprise environment",
-      "skills": [
-        "Kotlin",
-        "Java",
-        "Spring Framework",
-        "Hibernate",
-        "Multithreading Development",
-        "Microservice architecture",
-        "Docker"
       ]
     },
     {
