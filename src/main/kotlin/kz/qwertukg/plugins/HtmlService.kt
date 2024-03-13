@@ -68,7 +68,6 @@ fun DIV.printStringValue(value: String) {
             img(src = value)
         }
 
-
         else -> span("text") { +value }
     }
 }
