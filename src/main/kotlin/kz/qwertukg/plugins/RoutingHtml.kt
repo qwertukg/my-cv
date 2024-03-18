@@ -12,7 +12,7 @@ import kotlinx.html.head
 import kotlinx.html.link
 
 fun Application.configureRoutingHtml() {
-    val service = JsonService(environment)
+    val service = JsonService(environment.config)
     val mapper = jacksonObjectMapper()
 
     routing {
@@ -44,3 +44,4 @@ fun Application.configureRoutingHtml() {
         }
     }
 }
+

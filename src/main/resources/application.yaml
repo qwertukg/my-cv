@@ -6,3 +6,5 @@ ktor:
     port: 80
 app:
   dataPath: "$DATA_PATH"
+  host: "$G_HOST"
+  token: "$G_TOKEN"
