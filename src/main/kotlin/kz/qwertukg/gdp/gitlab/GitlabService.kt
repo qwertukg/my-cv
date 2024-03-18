@@ -15,8 +15,8 @@ import java.time.LocalDate
 import javax.net.ssl.X509TrustManager
 
 class GitlabService(private val config: ApplicationConfig) {
-    val host = config. property("app.host").getString()
-    val token = config.property("app.token").getString()
+    val host = config. propertyOrNull("app.host")?.getString()
+    val token = config.propertyOrNull("app.token")?.getString()
     val client = HttpClient(CIO) {
         install(ContentNegotiation) {
             json(Json {
