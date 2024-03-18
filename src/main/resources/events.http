@@ -1,0 +1,15 @@
+// The request body is provided in place
+POST http://0.0.0.0/e
+Content-Type: application/json
+
+{
+  "projectId": 105,
+  "after": "2024-01-01",
+  "possibleEvents": [
+    "Accepted mergerequest",
+    "Approved mergerequest"
+  ],
+  "possibleUsers": [
+
+  ]
+}

@@ -1,7 +1,6 @@
 package kz.qwertukg
 
 import io.ktor.server.application.*
-import kotlinx.coroutines.runBlocking
 import kz.qwertukg.gdp.configureRoutingEvents
 import kz.qwertukg.plugins.configureRoutingHtml
 

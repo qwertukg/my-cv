@@ -1,17 +1,16 @@
 package kz.qwertukg.gdp.events
 
+import kz.qwertukg.gdp.EventRequestBody
 import kz.qwertukg.gdp.gitlab.*
 import java.time.LocalDate
 
 class EventService(private val gitlabService: GitlabService) {
+    suspend fun getProjectEventsByUserAndEvents(body: EventRequestBody): Project {
+        val gitlabProject = gitlabService.getOne<GitlabProject>("projects/${body.projectId}")
+        val gitlabProjectEvents = gitlabService.getAll<GitlabEvent>("projects/${body.projectId}/events", LocalDate.parse(body.after))
 
-    suspend fun getProjectEventsByUser(projectId: Int, after: LocalDate): Project {
-        val gitlabProject = gitlabService.getOne<GitlabProject>("projects/$projectId")
-        val gitlabProjectUsers = gitlabService.getAll<GitlabUser>("projects/$projectId/users", after)
-        val gitlabProjectEvents = gitlabService.getAll<GitlabEvent>("projects/$projectId/events", after)
-
-        // Извлечение генерации отсортированных полных имен событий в функцию для ясности.
-        val gitlabProjectEventsKeys = getSortedEventFullNames(gitlabProjectEvents)
+        val gitlabProjectUsers = getProjectUsersOnly(body)
+        val gitlabProjectEventsKeys = getSortedEventFullNames(gitlabProjectEvents, body)
 
         val projectUsers = gitlabProjectUsers.mapNotNull { gitlabUser ->
             createUserFromEvents(gitlabUser, gitlabProjectEvents, gitlabProjectEventsKeys).takeIf { user ->
@@ -28,11 +27,18 @@ class EventService(private val gitlabService: GitlabService) {
         )
     }
 
-    // Извлечение сортировки полных имен событий в отдельную функцию для ясности.
-    private fun getSortedEventFullNames(events: List<GitlabEvent>): List<String> =
-        events.groupBy(GitlabEvent::getFullName).keys.sorted()
+    private fun getSortedEventFullNames(events: List<GitlabEvent>, body: EventRequestBody): List<String> {
+        val keys = events.groupBy(GitlabEvent::getFullName).keys
+        return if (body.possibleEvents.isNotEmpty()) keys.filter { it in body.possibleEvents }.sorted()
+        else keys.sorted()
+    }
 
-    // Абстракция создания объекта User из GitlabUser и событий, с которыми они связаны.
+    private suspend fun getProjectUsersOnly(body: EventRequestBody): List<GitlabUser> {
+        val users = gitlabService.getAll<GitlabUser>("projects/${body.projectId}/users", LocalDate.parse(body.after))
+        return if (body.possibleUsers.isNotEmpty()) users.filter { it.username in body.possibleUsers }
+        else users
+    }
+
     private fun createUserFromEvents(
         gitlabUser: GitlabUser,
         gitlabProjectEvents: List<GitlabEvent>,
