@@ -10,9 +10,9 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import kotlinx.html.*
 import kotlinx.serialization.Serializable
+import kz.qwertukg.gdp.events.EventRequestBody
 import kz.qwertukg.gdp.events.EventService
 import kz.qwertukg.gdp.gitlab.*
-import java.time.LocalDate
 
 fun Application.configureRoutingEvents() {
     val gitlabService = GitlabService(environment.config)
@@ -23,16 +23,6 @@ fun Application.configureRoutingEvents() {
         install(ContentNegotiation) {
             json()
         }
-
-
-//        get("/e/{projectId}/{after}") {
-//            val projectId = call.parameters["projectId"]!!.toInt()
-//            val after = call.parameters["after"]!!.toString()
-//            val afterDate = LocalDate.parse(after)
-//            val project = eventService.getProjectEventsByUser(projectId, afterDate)
-//            val chartJsData = eventService.getChartJsData(project)
-//            call.respond(chartJsData)
-//        }
 
         post("/e") {
             val eventsRequestBody = call.receive<EventRequestBody>()
@@ -60,11 +50,5 @@ fun Application.configureRoutingEvents() {
     }
 }
 
-@Serializable
-data class EventRequestBody(
-    val projectId: Int,
-    val after: String,
-    val possibleEvents: List<String>,
-    val possibleUsers: List<String>
-)
+
 

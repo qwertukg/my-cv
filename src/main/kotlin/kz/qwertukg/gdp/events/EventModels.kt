@@ -20,3 +20,11 @@ data class Event(
     val fullName: String,
     val count: Int
 )
+
+@Serializable
+data class EventRequestBody(
+    val projectId: Int,
+    val after: String,
+    val possibleEvents: List<String>,
+    val possibleUsers: List<String>
+)
