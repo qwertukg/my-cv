@@ -1,4 +1,4 @@
-package kz.qwertukg.gdp.events
+package kz.qwertukg.gdp.client
 
 import kotlinx.serialization.Serializable
 

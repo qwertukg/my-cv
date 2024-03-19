@@ -9,7 +9,7 @@ import io.ktor.server.request.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import kotlinx.html.*
-import kotlinx.serialization.Serializable
+import kz.qwertukg.gdp.client.ChartService
 import kz.qwertukg.gdp.events.EventRequestBody
 import kz.qwertukg.gdp.events.EventService
 import kz.qwertukg.gdp.gitlab.*
@@ -17,6 +17,7 @@ import kz.qwertukg.gdp.gitlab.*
 fun Application.configureRoutingEvents() {
     val gitlabService = GitlabService(environment.config)
     val eventService = EventService(gitlabService)
+    val chartService = ChartService()
 
     routing {
         staticResources("/static", "static")
@@ -27,7 +28,7 @@ fun Application.configureRoutingEvents() {
         post("/e") {
             val eventsRequestBody = call.receive<EventRequestBody>()
             val project = eventService.getProjectEventsByUserAndEvents(eventsRequestBody)
-            val chartJsData = eventService.getChartJsData(project)
+            val chartJsData = chartService.getChartJsData(project)
             call.respond(chartJsData)
         }
 

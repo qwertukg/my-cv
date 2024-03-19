@@ -1,6 +1,7 @@
-package kz.qwertukg.gdp.gitlab
+package kz.qwertukg.gdp.events
 
 import io.ktor.util.*
+import kz.qwertukg.gdp.gitlab.GitlabEvent
 
 fun GitlabEvent.getBranchType(): BranchType? {
     val branchName = push_data?.ref?.toLowerCasePreservingASCIIRules() ?: return null

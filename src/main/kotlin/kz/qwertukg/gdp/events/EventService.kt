@@ -1,6 +1,5 @@
 package kz.qwertukg.gdp.events
 
-import kz.qwertukg.gdp.EventRequestBody
 import kz.qwertukg.gdp.gitlab.*
 import java.time.LocalDate
 
@@ -59,18 +58,5 @@ class EventService(private val gitlabService: GitlabService) {
             events = userEvents
         )
     }
-
-    fun getChartJsData(project: Project): ChartJsData {
-        return ChartJsData(
-            labels = project.eventFullNames,
-            datasets = project.users.map { user ->
-                ChartJsDataset(
-                    label = user.name,
-                    data = user.events.map { it.count }
-                )
-            }
-        )
-    }
-
 }
 
